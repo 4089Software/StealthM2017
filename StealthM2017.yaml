@@ -19,7 +19,7 @@ Children:
             default: '0'
             name: Output Channel (PWM)
             validators: &id003 [PWMOutput]
-            value: '3'
+            value: '0'
         Base: Speed Controller
         Name: MotorD1
       - Children: []
@@ -35,7 +35,7 @@ Children:
             default: '0'
             name: Output Channel (PWM)
             validators: *id003
-            value: '4'
+            value: '1'
         Base: Speed Controller
         Name: MotorD2
       - Children: []
@@ -51,7 +51,7 @@ Children:
             default: '0'
             name: Output Channel (PWM)
             validators: *id003
-            value: '5'
+            value: '2'
         Base: Speed Controller
         Name: MotorD3
       - Children: []
@@ -67,7 +67,7 @@ Children:
             default: '0'
             name: Output Channel (PWM)
             validators: *id003
-            value: '6'
+            value: '3'
         Base: Speed Controller
         Name: MotorD4
       Properties:
@@ -142,7 +142,7 @@ Children:
           default: '0'
           name: Output Channel (PWM)
           validators: *id003
-          value: '0'
+          value: '4'
       Base: Speed Controller
       Name: MotorBC
     Properties:
@@ -174,7 +174,7 @@ Children:
           default: '0'
           name: Output Channel (PWM)
           validators: *id003
-          value: '1'
+          value: '5'
       Base: Speed Controller
       Name: MotorShoot
     - Children: []
@@ -242,7 +242,7 @@ Children:
           default: '0'
           name: Output Channel (PWM)
           validators: *id003
-          value: '2'
+          value: '6'
       Base: Speed Controller
       Name: MotorElev
     Properties:
