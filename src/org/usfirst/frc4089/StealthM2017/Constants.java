@@ -19,6 +19,8 @@ public class Constants {
 	public static final double driveRTTurn = 90.0;
 	public static final double driveBWPow = 1.0;
 	public static final double driveBWTurn = 180.0;
+	public static final double elevMotorSpdOne = 1.0;
+	public static final double elevMotorSpdTwo = 1.0;
 	
 //CAN BUS ASSIGNMENT
 	
@@ -29,6 +31,6 @@ public class Constants {
 	public static final int CANdriveMotorD4 = 4;
 	public static final int CANballCollectorMotorBC = 5;
 	public static final int CANshooterMotorShoot = 6;   
-	public static final int CANelevatorMotorElev = 7;
-    
+	public static final int CANelevatorMotorElevOne= 7;
+	public static final int CANelevatorMotorElevTwo= 8;
 }
