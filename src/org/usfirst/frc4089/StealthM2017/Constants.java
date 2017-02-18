@@ -21,7 +21,8 @@ public class Constants {
 	public static final double driveBWTurn = 180.0;
 	public static final double elevMotorSpdOne = 1.0;
 	public static final double elevMotorSpdTwo = 1.0;
-	
+	public static final double climbMotorSpdOne = 1.0;
+	public static final double climbMotorSpdTwo = 1.0;
 //CAN BUS ASSIGNMENT
 	
 	public static final int CANpowerDistributionPanel = 0;
@@ -31,6 +32,8 @@ public class Constants {
 	public static final int CANdriveMotorD4 = 4;
 	public static final int CANballCollectorMotorBC = 5;
 	public static final int CANshooterMotorShoot = 6;   
-	public static final int CANelevatorMotorElevOne= 7;
-	public static final int CANelevatorMotorElevTwo= 8;
+	public static final int CANelevatorMotorOne= 7;
+	public static final int CANelevatorMotorTwo= 8;
+	public static final int CANclimbMotorOne= 9;
+	public static final int CANclimbMotorTwo= 10;
 }
