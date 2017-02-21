@@ -75,6 +75,10 @@ public class Drive extends Subsystem {
     public void driveRT(){
     	robotDrive41.arcadeDrive(Constants.driveRTPow, Constants.driveRTTurn);
     }
+    //used to dynamically drive the bot
+    public void driveDyn(double dist, double deg){
+    	robotDrive41.arcadeDrive(dist, deg);
+    }
   
 }
 

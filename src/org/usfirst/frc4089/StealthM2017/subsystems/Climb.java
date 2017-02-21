@@ -47,11 +47,11 @@ public class Climb extends Subsystem {
         // Set the default command for a subsystem here.
         // setDefaultCommand(new MySpecialCommand());
     }
-    public void lowerElv(){
+    public void lowerClimb(){
 		climbMotorOne.set(-Constants.climbMotorSpdOne);
 		climbMotorTwo.set(Constants.climbMotorSpdTwo);
 	}
-    public void raiseElv(){
+    public void raiseClimb(){
     	climbMotorOne.set(Constants.climbMotorSpdOne);
     	climbMotorTwo.set(-Constants.climbMotorSpdTwo);
     }

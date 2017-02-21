@@ -23,6 +23,8 @@ public class Constants {
 	public static final double elevMotorSpdTwo = 1.0;
 	public static final double climbMotorSpdOne = 1.0;
 	public static final double climbMotorSpdTwo = 1.0;
+	public static final double minLowGoalServoPos = 0.0;
+	public static final double maxLowGoalServoPos = 0.5;
 //CAN BUS ASSIGNMENT
 	
 	public static final int CANpowerDistributionPanel = 0;

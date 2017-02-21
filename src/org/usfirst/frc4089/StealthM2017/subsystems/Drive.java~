@@ -11,6 +11,7 @@
 
 package org.usfirst.frc4089.StealthM2017.subsystems;
 
+import org.usfirst.frc4089.StealthM2017.Constants;
 import org.usfirst.frc4089.StealthM2017.RobotMap;
 import org.usfirst.frc4089.StealthM2017.commands.*;
 
@@ -62,6 +63,22 @@ public class Drive extends Subsystem {
     	
     }
     
+    public void driveFW(){
+    	robotDrive41.arcadeDrive(Constants.driveFWPow, Constants.driveFWTurn);
+    }
+    public void driveBW(){
+    	robotDrive41.arcadeDrive(Constants.driveBWPow, Constants.driveBWTurn);
+    }
+    public void driveLT(){
+    	robotDrive41.arcadeDrive(Constants.driveLTPow, Constants.driveLTTurn);
+    }
+    public void driveRT(){
+    	robotDrive41.arcadeDrive(Constants.driveRTPow, Constants.driveRTTurn);
+    }
+    //used to dynamically drive the bot
+    public void driveDyn(double dist, double deg){
+    	robotDrive41.arcadeDrive(dist, deg);
+    }
   
 }
 
