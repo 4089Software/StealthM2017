@@ -79,7 +79,7 @@ public class Shooter extends Subsystem {
     	servoLowGoal.setPosition(Constants.minLowGoalServoPos);
     }
     public void lowGoalActuate(){
-    	if (servoLowGoal.get() >=0.25){
+    	if (servoLowGoal.get() <=0.25){
     		servoLowGoal.setPosition(Constants.maxLowGoalServoPos);
     	}else{
     		servoLowGoal.setPosition(Constants.minLowGoalServoPos);
