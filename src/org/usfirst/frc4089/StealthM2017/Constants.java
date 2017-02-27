@@ -25,6 +25,19 @@ public class Constants {
 	public static final double climbMotorSpdTwo = 1.0;
 	public static final double minLowGoalServoPos = 0.0;
 	public static final double maxLowGoalServoPos = 0.5;
+	
+	public static final double gyroSensitivity = 0.007;
+	public static final double wheelDiameterIN = 6.0; //in
+	public static final double wheelDiameterM = 0.1524; //mm
+	public static final double distPP = Constants.wheelDiameterM*Math.PI;
+			//(4.0/* in */ * Math.PI) / (360.0 * 12.0/* in/ft */));
+	public static final double kTolerance = 0.1;
+	public static double kP = -1.0 / 5.0;
+	public static double kI = -1.0 / 5.0;
+	public static double kD = -1.0 / 5.0;
+	public static double defaultAutoDriveMaxSpeed = 0.5;
+	public static double defaultAutoDriveDist = 10;
+	
 //CAN BUS ASSIGNMENT
 	
 	public static final int CANpowerDistributionPanel = 0;

@@ -79,6 +79,12 @@ public class Drive extends Subsystem {
     public void driveDyn(double dist, double deg){
     	robotDrive41.arcadeDrive(dist, deg);
     }
+    public void stop(){
+    	robotDrive41.arcadeDrive(0, 0);
+    }
+    public void tankDrive(double leftAxis, double rightAxis) {
+		robotDrive41.tankDrive(leftAxis, rightAxis);
+	}
   
 }
 
